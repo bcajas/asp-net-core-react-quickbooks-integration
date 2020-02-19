@@ -40,8 +40,8 @@ namespace QuickBooksASPNetCore2OpenIDConnect
                 {
                     openIdConnectOptions.Authority = "QuickBooks";
                     openIdConnectOptions.UseTokenLifetime = true;
-                    openIdConnectOptions.ClientId = ""; //client id & client secret need to be set w/ your app keys
-                    openIdConnectOptions.ClientSecret = "";
+                    openIdConnectOptions.ClientId = "ABRTd3zJPhGcWjGKIyA9gtrKPSzWZQfWsXHRZU0IPMgt6xbMNB"; //client id & client secret need to be set w/ your app keys
+                    openIdConnectOptions.ClientSecret = "ugWP7V6pdQJLBKPSkpcf44J6Uhdpp4Kg2lsz9E2B";
                     openIdConnectOptions.ResponseType = OpenIdConnectResponseType.Code;
                     openIdConnectOptions.MetadataAddress = "https://developer.api.intuit.com/.well-known/openid_sandbox_configuration/";    //development path
                     openIdConnectOptions.ProtocolValidator.RequireNonce = false;
